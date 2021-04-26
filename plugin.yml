@@ -1,0 +1,19 @@
+main: com.axeelheaven.simplechat.Main
+name: SimpleChat
+version: 1.0.0
+author: AxeelHeaven
+softdepend: [PlaceholderAPI]
+commands:
+   simplechat:
+      description: Main Command
+      aliases: [chat]
+   clearchat:
+      description: Delete chat
+      aliases: [cc]
+   msg:
+      description: Send a message
+      aliases: [message, tell]
+   reply:
+      description: Send an answer
+      aliases: [r]
+      

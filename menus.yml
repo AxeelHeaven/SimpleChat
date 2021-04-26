@@ -1,0 +1,486 @@
+nopermission: "&cYou need permission '<permission>' to use."
+selected: "&aYou have selected '<color>'."
+already_selected: "&cYou've already selected it."
+
+
+symbols:
+  title: "Symbols Menu"
+  size: 45
+  DEFAULT:
+    material: 35
+    data-value: 3
+    slot: 11
+    name: "&9Default"
+    permission: "simplechat.default"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  STAR:
+    material: 399
+    data-value: 0
+    slot: 12
+    name: "&aStart"
+    permission: "simplechat.start"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  FLOWER:
+    material: 37
+    data-value: 0
+    slot: 13
+    name: "&9Flower"
+    permission: "simplechat.flower"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  CLOUD:
+    material: 287
+    data-value: 0
+    slot: 14
+    name: "&2Cloud"
+    permission: "simplechat.cloud"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  SUN:
+    material: 371
+    data-value: 0
+    slot: 15
+    name: "&3Sun"
+    permission: "simplechat.sun"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  HORSE:
+    material: 329
+    data-value: 0
+    slot: 16
+    name: "&4Horse"
+    permission: "simplechat.horse"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  AVION:
+    material: PAPER
+    data-value: 0
+    slot: 17
+    name: "&5Avion"
+    permission: "simplechat.avion"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  COOL:
+    material: 280
+    data-value: 0
+    slot: 20
+    name: "&3Cool"
+    permission: "simplechat.cool"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  POINT:
+    material: 263
+    data-value: 0
+    slot: 21
+    name: "&7Point"
+    permission: "simplechat.point"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  HEART:
+    material: 260
+    data-value: 0
+    slot: 22
+    name: "&8Heart"
+    permission: "simplechat.heart"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  JAVA:
+    material: 264
+    data-value: 0
+    slot: 23
+    name: "&aJava"
+    permission: "simplechat.java"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  UMBRELLA:
+    material: 18
+    data-value: 0
+    slot: 24
+    name: "&bUmbrella"
+    permission: "simplechat.umbrella"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  PENCIL:
+    material: 369
+    data-value: 0
+    slot: 25
+    name: "&cPencil"
+    permission: "simplechat.pencil"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  SCISSORS:
+    material: 355
+    data-value: 0
+    slot: 26
+    name: "&dScissors"
+    permission: "simplechat.scissors"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  CLOVER:
+    material: 334
+    data-value: 0
+    slot: 29
+    name: "&eClover"
+    permission: "simplechat.clover"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+    
+message_colors:
+  title: "Chat Message Colors"
+  size: 45
+  BLUE:
+    material: 35
+    data-value: 3
+    slot: 11
+    name: "&9Blue Color"
+    permission: "simplechat.blue"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  BLACK:
+    material: 35
+    data-value: 15
+    slot: 12
+    name: "&0Black Color"
+    permission: "simplechat.black"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_BLUE:
+    material: 35
+    data-value: 11
+    slot: 13
+    name: "&9Dark Blue Color"
+    permission: "simplechat.darkblue"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_GREEN:
+    material: 35
+    data-value: 13
+    slot: 14
+    name: "&2Dark Green Color"
+    permission: "simplechat.darkgreen"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_AQUA:
+    material: 35
+    data-value: 9
+    slot: 15
+    name: "&3Dark Aqua Color"
+    permission: "simplechat.darkaqua"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_RED:
+    material: 35
+    data-value: 14
+    slot: 16
+    name: "&4Dark Red Color"
+    permission: "simplechat.darkred"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_PURPLE:
+    material: 35
+    data-value: 10
+    slot: 17
+    name: "&5Dark Purple Color"
+    permission: "simplechat.darkpurple"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  GOLD:
+    material: 35
+    data-value: 1
+    slot: 20
+    name: "&6Gold Color"
+    permission: "simplechat.gold"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  GRAY:
+    material: 35
+    data-value: 8
+    slot: 21
+    name: "&7Gray Color"
+    permission: "simplechat.gray"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_GRAY:
+    material: 35
+    data-value: 7
+    slot: 22
+    name: "&8Dark Gray Color"
+    permission: "simplechat.darkgray"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  GREEN:
+    material: 35
+    data-value: 5
+    slot: 23
+    name: "&aGeeen Color"
+    permission: "simplechat.green"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  AQUA:
+    material: 35
+    data-value: 3
+    slot: 24
+    name: "&bAqua Color"
+    permission: "simplechat.aqua"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  RED:
+    material: 35
+    data-value: 6
+    slot: 25
+    name: "&cRed Color"
+    permission: "simplechat.red"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  LIGHT_PURPLE:
+    material: 35
+    data-value: 2
+    slot: 26
+    name: "&dLight Purple Color"
+    permission: "simplechat.lightpurple"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  YELLOW:
+    material: 35
+    data-value: 4
+    slot: 29
+    name: "&eYellow Color"
+    permission: "simplechat.yellow"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  WHITE:
+    material: 35
+    data-value: 0
+    slot: 30
+    name: "&fWhite Color"
+    permission: "simplechat.white"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+    
+name_colors:
+  title: "Chat Name Colors"
+  size: 45
+  BLUE:
+    material: 35
+    data-value: 3
+    slot: 11
+    name: "&9Blue Color"
+    permission: "simplechat.blue"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  BLACK:
+    material: 35
+    data-value: 15
+    slot: 12
+    name: "&0Black Color"
+    permission: "simplechat.black"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_BLUE:
+    material: 35
+    data-value: 11
+    slot: 13
+    name: "&9Dark Blue Color"
+    permission: "simplechat.darkblue"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_GREEN:
+    material: 35
+    data-value: 13
+    slot: 14
+    name: "&2Dark Green Color"
+    permission: "simplechat.darkgreen"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_AQUA:
+    material: 35
+    data-value: 9
+    slot: 15
+    name: "&3Dark Aqua Color"
+    permission: "simplechat.darkaqua"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_RED:
+    material: 35
+    data-value: 14
+    slot: 16
+    name: "&4Dark Red Color"
+    permission: "simplechat.darkred"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_PURPLE:
+    material: 35
+    data-value: 10
+    slot: 17
+    name: "&5Dark Purple Color"
+    permission: "simplechat.darkpurple"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  GOLD:
+    material: 35
+    data-value: 1
+    slot: 20
+    name: "&6Gold Color"
+    permission: "simplechat.gold"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  GRAY:
+    material: 35
+    data-value: 8
+    slot: 21
+    name: "&7Gray Color"
+    permission: "simplechat.gray"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  DARK_GRAY:
+    material: 35
+    data-value: 7
+    slot: 22
+    name: "&8Dark Gray Color"
+    permission: "simplechat.darkgray"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  GREEN:
+    material: 35
+    data-value: 5
+    slot: 23
+    name: "&aGeeen Color"
+    permission: "simplechat.green"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  AQUA:
+    material: 35
+    data-value: 3
+    slot: 24
+    name: "&bAqua Color"
+    permission: "simplechat.aqua"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  RED:
+    material: 35
+    data-value: 6
+    slot: 25
+    name: "&cRed Color"
+    permission: "simplechat.red"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  LIGHT_PURPLE:
+    material: 35
+    data-value: 2
+    slot: 26
+    name: "&dLight Purple Color"
+    permission: "simplechat.lightpurple"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  YELLOW:
+    material: 35
+    data-value: 4
+    slot: 29
+    name: "&eYellow Color"
+    permission: "simplechat.yellow"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."
+  WHITE:
+    material: 35
+    data-value: 0
+    slot: 30
+    name: "&fWhite Color"
+    permission: "simplechat.white"
+    lore:
+    - "&fYou need VIP rank to select it.."
+    - ""
+    - "&eClick to select this chat color."

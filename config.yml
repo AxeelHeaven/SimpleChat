@@ -1,0 +1,31 @@
+# If the MySQL is deactivated the data will be saved in SQLITE
+mysql:
+  enabled: false
+  table_name: "SimpleChat"
+  settings:
+    host: 127.0.0.1
+    # In most cases the port does not change
+    port: 3306
+    database: database
+    username: username
+    password: password
+
+message_settings:
+  antiCaps: true
+  # Maximum percentage of characters in a message allowed to be uppercase
+  max-caps-percentage: 25
+  # Minumum length of a message for the plugin to take effect. (Used to prevent false positives such as "Hi" being 50% caps.)
+  min-message-length: 5
+
+format: "%hpermissions_prefix% <name_color><symbol><name><symbol>&f: <message_color><message>"
+
+settings:
+  nameColor: WHITE
+  messageColor: GRAY
+  symbol: DEFAULT
+
+cooldown_settings:
+  enabled: true
+  time: 5
+  message: "&cPlease wait <seconds> seconds to speak again. Buy VIP rank and speak without cooldown."
+  
